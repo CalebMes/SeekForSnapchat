@@ -1,0 +1,862 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274174C324B95AB800E3458F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274174C224B95AB800E3458F /* AppDelegate.swift */; };
+		274174C524B95AB800E3458F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274174C424B95AB800E3458F /* SceneDelegate.swift */; };
+		274174C724B95AB800E3458F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274174C624B95AB800E3458F /* ViewController.swift */; };
+		274174CA24B95AB800E3458F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274174C824B95AB800E3458F /* Main.storyboard */; };
+		274174CD24B95AB800E3458F /* Scavanger_Hunt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 274174CB24B95AB800E3458F /* Scavanger_Hunt.xcdatamodeld */; };
+		274174CF24B95ABC00E3458F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274174CE24B95ABC00E3458F /* Assets.xcassets */; };
+		274174D224B95ABC00E3458F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274174D024B95ABC00E3458F /* LaunchScreen.storyboard */; };
+		274174DD24B95ABC00E3458F /* Scavanger_HuntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274174DC24B95ABC00E3458F /* Scavanger_HuntTests.swift */; };
+		274174E824B95ABC00E3458F /* Scavanger_HuntUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274174E724B95ABC00E3458F /* Scavanger_HuntUITests.swift */; };
+		274174F724B95C8E00E3458F /* WelcomeViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274174F624B95C8E00E3458F /* WelcomeViews.swift */; };
+		2742445724DD3FFB001E5ECE /* bubbles.json in Resources */ = {isa = PBXBuildFile; fileRef = 2742445624DD3FFA001E5ECE /* bubbles.json */; };
+		2742445A24DD6BB9001E5ECE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2742445924DD6BB9001E5ECE /* GoogleService-Info.plist */; };
+		27470F68251C0F0D00287076 /* confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = 27470F67251C0F0B00287076 /* confetti.json */; };
+		274C7784250F590300884C91 /* 30792-mask-care-keep-your-mask-clean.json in Resources */ = {isa = PBXBuildFile; fileRef = 274C7783250F590300884C91 /* 30792-mask-care-keep-your-mask-clean.json */; };
+		275203BA250F50CF002E0069 /* 28319-card-money.json in Resources */ = {isa = PBXBuildFile; fileRef = 275203B9250F50CE002E0069 /* 28319-card-money.json */; };
+		27697EB324C3A691005683BF /* MainTransitionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27697EB224C3A691005683BF /* MainTransitionViews.swift */; };
+		276DDE3924C8086F00075C4D /* HuntTableVIews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276DDE3824C8086F00075C4D /* HuntTableVIews.swift */; };
+		27AA576B2524B4850025C979 /* loadingSpinner.json in Resources */ = {isa = PBXBuildFile; fileRef = 27AA576A2524B4850025C979 /* loadingSpinner.json */; };
+		27AA576D2525400B0025C979 /* startGame.json in Resources */ = {isa = PBXBuildFile; fileRef = 27AA576C2525400A0025C979 /* startGame.json */; };
+		27D8E2D0251C72700084A1E9 /* awardLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = 27D8E2CF251C72700084A1E9 /* awardLottie.json */; };
+		27D8E2D3251D593D0084A1E9 /* GroupCollectionViewControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D8E2D2251D593D0084A1E9 /* GroupCollectionViewControllers.swift */; };
+		27DAF33A24E9C74D00E922F2 /* YellowCorner1.json in Resources */ = {isa = PBXBuildFile; fileRef = 27DAF33924E9C74C00E922F2 /* YellowCorner1.json */; };
+		27FEE21E2531CE63003003EF /* NoAccountMonkey.json in Resources */ = {isa = PBXBuildFile; fileRef = 27FEE21D2531CE62003003EF /* NoAccountMonkey.json */; };
+		380540065B78D618296111A2 /* Pods_Scavanger_HuntTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7291DDDB608BDF04A914116 /* Pods_Scavanger_HuntTests.framework */; };
+		5646E58870DC2B7AE78477B2 /* Pods_Scavanger_Hunt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D1494DDB403455830F17334 /* Pods_Scavanger_Hunt.framework */; };
+		D3F21C053C88E518DE25FB10 /* Pods_Scavanger_Hunt_Scavanger_HuntUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9932A012B46D9D6BB3C8680 /* Pods_Scavanger_Hunt_Scavanger_HuntUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274174D924B95ABC00E3458F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274174B724B95AB700E3458F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274174BE24B95AB700E3458F;
+			remoteInfo = "Scavanger Hunt";
+		};
+		274174E424B95ABC00E3458F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 274174B724B95AB700E3458F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274174BE24B95AB700E3458F;
+			remoteInfo = "Scavanger Hunt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		038DDFF141E2F86A80F0B6DE /* Pods-Scavanger Hunt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavanger Hunt.debug.xcconfig"; path = "Target Support Files/Pods-Scavanger Hunt/Pods-Scavanger Hunt.debug.xcconfig"; sourceTree = "<group>"; };
+		0D1494DDB403455830F17334 /* Pods_Scavanger_Hunt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scavanger_Hunt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		274174BF24B95AB800E3458F /* Scavanger Hunt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Scavanger Hunt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274174C224B95AB800E3458F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		274174C424B95AB800E3458F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		274174C624B95AB800E3458F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		274174C924B95AB800E3458F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		274174CC24B95AB800E3458F /* Scavanger_Hunt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scavanger_Hunt.xcdatamodel; sourceTree = "<group>"; };
+		274174CE24B95ABC00E3458F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		274174D124B95ABC00E3458F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		274174D324B95ABC00E3458F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274174D824B95ABC00E3458F /* Scavanger HuntTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scavanger HuntTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274174DC24B95ABC00E3458F /* Scavanger_HuntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scavanger_HuntTests.swift; sourceTree = "<group>"; };
+		274174DE24B95ABC00E3458F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274174E324B95ABC00E3458F /* Scavanger HuntUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Scavanger HuntUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		274174E724B95ABC00E3458F /* Scavanger_HuntUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scavanger_HuntUITests.swift; sourceTree = "<group>"; };
+		274174E924B95ABC00E3458F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274174F624B95C8E00E3458F /* WelcomeViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViews.swift; sourceTree = "<group>"; };
+		2742445624DD3FFA001E5ECE /* bubbles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = bubbles.json; sourceTree = "<group>"; };
+		2742445824DD65CF001E5ECE /* Scavanger Hunt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Scavanger Hunt.entitlements"; sourceTree = "<group>"; };
+		2742445924DD6BB9001E5ECE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27470F67251C0F0B00287076 /* confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = confetti.json; sourceTree = "<group>"; };
+		274C7783250F590300884C91 /* 30792-mask-care-keep-your-mask-clean.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "30792-mask-care-keep-your-mask-clean.json"; sourceTree = "<group>"; };
+		275203B9250F50CE002E0069 /* 28319-card-money.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "28319-card-money.json"; sourceTree = "<group>"; };
+		27697EB224C3A691005683BF /* MainTransitionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTransitionViews.swift; sourceTree = "<group>"; };
+		276DDE3824C8086F00075C4D /* HuntTableVIews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HuntTableVIews.swift; path = "Scavanger Hunt/Support files/ViewContainer/HuntTableVIews.swift"; sourceTree = SOURCE_ROOT; };
+		27AA576A2524B4850025C979 /* loadingSpinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadingSpinner.json; sourceTree = "<group>"; };
+		27AA576C2525400A0025C979 /* startGame.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = startGame.json; sourceTree = "<group>"; };
+		27D8E2CF251C72700084A1E9 /* awardLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awardLottie.json; sourceTree = "<group>"; };
+		27D8E2D2251D593D0084A1E9 /* GroupCollectionViewControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCollectionViewControllers.swift; sourceTree = "<group>"; };
+		27DAF33924E9C74C00E922F2 /* YellowCorner1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = YellowCorner1.json; sourceTree = "<group>"; };
+		27FEE21D2531CE62003003EF /* NoAccountMonkey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NoAccountMonkey.json; sourceTree = "<group>"; };
+		29B166646BDC3ADE3F4B8A61 /* Pods-Scavanger Hunt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavanger Hunt.release.xcconfig"; path = "Target Support Files/Pods-Scavanger Hunt/Pods-Scavanger Hunt.release.xcconfig"; sourceTree = "<group>"; };
+		2D8B5705C051F62B49ADE07C /* Pods-Scavanger Hunt-Scavanger HuntUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavanger Hunt-Scavanger HuntUITests.debug.xcconfig"; path = "Target Support Files/Pods-Scavanger Hunt-Scavanger HuntUITests/Pods-Scavanger Hunt-Scavanger HuntUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EEEC498BECAD6BBAA6E6013 /* Pods-Scavanger HuntTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavanger HuntTests.debug.xcconfig"; path = "Target Support Files/Pods-Scavanger HuntTests/Pods-Scavanger HuntTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70FCD3129A6391F0F1F1645D /* Pods-Scavanger Hunt-Scavanger HuntUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavanger Hunt-Scavanger HuntUITests.release.xcconfig"; path = "Target Support Files/Pods-Scavanger Hunt-Scavanger HuntUITests/Pods-Scavanger Hunt-Scavanger HuntUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CE823C0A19AB568794D1480 /* libPods-Scavanger Hunt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Scavanger Hunt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A118049F0E8A8ECFE7421F /* Pods-Scavanger HuntTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scavanger HuntTests.release.xcconfig"; path = "Target Support Files/Pods-Scavanger HuntTests/Pods-Scavanger HuntTests.release.xcconfig"; sourceTree = "<group>"; };
+		C9932A012B46D9D6BB3C8680 /* Pods_Scavanger_Hunt_Scavanger_HuntUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scavanger_Hunt_Scavanger_HuntUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7291DDDB608BDF04A914116 /* Pods_Scavanger_HuntTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scavanger_HuntTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274174BC24B95AB700E3458F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5646E58870DC2B7AE78477B2 /* Pods_Scavanger_Hunt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274174D524B95ABC00E3458F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380540065B78D618296111A2 /* Pods_Scavanger_HuntTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274174E024B95ABC00E3458F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3F21C053C88E518DE25FB10 /* Pods_Scavanger_Hunt_Scavanger_HuntUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274174B624B95AB700E3458F = {
+			isa = PBXGroup;
+			children = (
+				274174C124B95AB800E3458F /* Scavanger Hunt */,
+				274174DB24B95ABC00E3458F /* Scavanger HuntTests */,
+				274174E624B95ABC00E3458F /* Scavanger HuntUITests */,
+				274174C024B95AB800E3458F /* Products */,
+				7B4F319A5630D149ADB8CD23 /* Pods */,
+				B35E1ADC97130D9CF2D8ADBB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		274174C024B95AB800E3458F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274174BF24B95AB800E3458F /* Scavanger Hunt.app */,
+				274174D824B95ABC00E3458F /* Scavanger HuntTests.xctest */,
+				274174E324B95ABC00E3458F /* Scavanger HuntUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274174C124B95AB800E3458F /* Scavanger Hunt */ = {
+			isa = PBXGroup;
+			children = (
+				27D8E2D4251D5D290084A1E9 /* LottieFliles */,
+				2742445824DD65CF001E5ECE /* Scavanger Hunt.entitlements */,
+				274174F524B95C1200E3458F /* Support files */,
+			);
+			path = "Scavanger Hunt";
+			sourceTree = "<group>";
+		};
+		274174DB24B95ABC00E3458F /* Scavanger HuntTests */ = {
+			isa = PBXGroup;
+			children = (
+				274174DC24B95ABC00E3458F /* Scavanger_HuntTests.swift */,
+				274174DE24B95ABC00E3458F /* Info.plist */,
+			);
+			path = "Scavanger HuntTests";
+			sourceTree = "<group>";
+		};
+		274174E624B95ABC00E3458F /* Scavanger HuntUITests */ = {
+			isa = PBXGroup;
+			children = (
+				274174E724B95ABC00E3458F /* Scavanger_HuntUITests.swift */,
+				274174E924B95ABC00E3458F /* Info.plist */,
+			);
+			path = "Scavanger HuntUITests";
+			sourceTree = "<group>";
+		};
+		274174F524B95C1200E3458F /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				27D8E2D1251D57FE0084A1E9 /* ViewContainer */,
+				274174C224B95AB800E3458F /* AppDelegate.swift */,
+				274174C424B95AB800E3458F /* SceneDelegate.swift */,
+				274174C824B95AB800E3458F /* Main.storyboard */,
+				274174CB24B95AB800E3458F /* Scavanger_Hunt.xcdatamodeld */,
+				274174CE24B95ABC00E3458F /* Assets.xcassets */,
+				274174D024B95ABC00E3458F /* LaunchScreen.storyboard */,
+				2742445924DD6BB9001E5ECE /* GoogleService-Info.plist */,
+				274174D324B95ABC00E3458F /* Info.plist */,
+			);
+			path = "Support files";
+			sourceTree = "<group>";
+		};
+		27D8E2D1251D57FE0084A1E9 /* ViewContainer */ = {
+			isa = PBXGroup;
+			children = (
+				274174F624B95C8E00E3458F /* WelcomeViews.swift */,
+				274174C624B95AB800E3458F /* ViewController.swift */,
+				27D8E2D2251D593D0084A1E9 /* GroupCollectionViewControllers.swift */,
+				27697EB224C3A691005683BF /* MainTransitionViews.swift */,
+				276DDE3824C8086F00075C4D /* HuntTableVIews.swift */,
+			);
+			path = ViewContainer;
+			sourceTree = "<group>";
+		};
+		27D8E2D4251D5D290084A1E9 /* LottieFliles */ = {
+			isa = PBXGroup;
+			children = (
+				27AA576C2525400A0025C979 /* startGame.json */,
+				2742445624DD3FFA001E5ECE /* bubbles.json */,
+				27DAF33924E9C74C00E922F2 /* YellowCorner1.json */,
+				275203B9250F50CE002E0069 /* 28319-card-money.json */,
+				27FEE21D2531CE62003003EF /* NoAccountMonkey.json */,
+				27AA576A2524B4850025C979 /* loadingSpinner.json */,
+				27470F67251C0F0B00287076 /* confetti.json */,
+				274C7783250F590300884C91 /* 30792-mask-care-keep-your-mask-clean.json */,
+				27D8E2CF251C72700084A1E9 /* awardLottie.json */,
+			);
+			path = LottieFliles;
+			sourceTree = "<group>";
+		};
+		7B4F319A5630D149ADB8CD23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				038DDFF141E2F86A80F0B6DE /* Pods-Scavanger Hunt.debug.xcconfig */,
+				29B166646BDC3ADE3F4B8A61 /* Pods-Scavanger Hunt.release.xcconfig */,
+				2D8B5705C051F62B49ADE07C /* Pods-Scavanger Hunt-Scavanger HuntUITests.debug.xcconfig */,
+				70FCD3129A6391F0F1F1645D /* Pods-Scavanger Hunt-Scavanger HuntUITests.release.xcconfig */,
+				3EEEC498BECAD6BBAA6E6013 /* Pods-Scavanger HuntTests.debug.xcconfig */,
+				A2A118049F0E8A8ECFE7421F /* Pods-Scavanger HuntTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B35E1ADC97130D9CF2D8ADBB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE823C0A19AB568794D1480 /* libPods-Scavanger Hunt.a */,
+				0D1494DDB403455830F17334 /* Pods_Scavanger_Hunt.framework */,
+				C9932A012B46D9D6BB3C8680 /* Pods_Scavanger_Hunt_Scavanger_HuntUITests.framework */,
+				E7291DDDB608BDF04A914116 /* Pods_Scavanger_HuntTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274174BE24B95AB700E3458F /* Scavanger Hunt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274174EC24B95ABC00E3458F /* Build configuration list for PBXNativeTarget "Scavanger Hunt" */;
+			buildPhases = (
+				A8EE6DA1321BFB5D04468CC4 /* [CP] Check Pods Manifest.lock */,
+				274174BB24B95AB700E3458F /* Sources */,
+				274174BC24B95AB700E3458F /* Frameworks */,
+				274174BD24B95AB700E3458F /* Resources */,
+				C347FC83C4CE6E23E10399BE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Scavanger Hunt";
+			productName = "Scavanger Hunt";
+			productReference = 274174BF24B95AB800E3458F /* Scavanger Hunt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		274174D724B95ABC00E3458F /* Scavanger HuntTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274174EF24B95ABC00E3458F /* Build configuration list for PBXNativeTarget "Scavanger HuntTests" */;
+			buildPhases = (
+				B0F13B45C4D55CEEB592462D /* [CP] Check Pods Manifest.lock */,
+				274174D424B95ABC00E3458F /* Sources */,
+				274174D524B95ABC00E3458F /* Frameworks */,
+				274174D624B95ABC00E3458F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274174DA24B95ABC00E3458F /* PBXTargetDependency */,
+			);
+			name = "Scavanger HuntTests";
+			productName = "Scavanger HuntTests";
+			productReference = 274174D824B95ABC00E3458F /* Scavanger HuntTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		274174E224B95ABC00E3458F /* Scavanger HuntUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274174F224B95ABC00E3458F /* Build configuration list for PBXNativeTarget "Scavanger HuntUITests" */;
+			buildPhases = (
+				783011D41B65CC977D7841F8 /* [CP] Check Pods Manifest.lock */,
+				274174DF24B95ABC00E3458F /* Sources */,
+				274174E024B95ABC00E3458F /* Frameworks */,
+				274174E124B95ABC00E3458F /* Resources */,
+				E436974589F942D8D5925D0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274174E524B95ABC00E3458F /* PBXTargetDependency */,
+			);
+			name = "Scavanger HuntUITests";
+			productName = "Scavanger HuntUITests";
+			productReference = 274174E324B95ABC00E3458F /* Scavanger HuntUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274174B724B95AB700E3458F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = "Caleb Mesfien";
+				TargetAttributes = {
+					274174BE24B95AB700E3458F = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					274174D724B95ABC00E3458F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 274174BE24B95AB700E3458F;
+					};
+					274174E224B95ABC00E3458F = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 274174BE24B95AB700E3458F;
+					};
+				};
+			};
+			buildConfigurationList = 274174BA24B95AB700E3458F /* Build configuration list for PBXProject "Scavanger Hunt" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 274174B624B95AB700E3458F;
+			productRefGroup = 274174C024B95AB800E3458F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				274174BE24B95AB700E3458F /* Scavanger Hunt */,
+				274174D724B95ABC00E3458F /* Scavanger HuntTests */,
+				274174E224B95ABC00E3458F /* Scavanger HuntUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274174BD24B95AB700E3458F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AA576D2525400B0025C979 /* startGame.json in Resources */,
+				27D8E2D0251C72700084A1E9 /* awardLottie.json in Resources */,
+				274174D224B95ABC00E3458F /* LaunchScreen.storyboard in Resources */,
+				2742445724DD3FFB001E5ECE /* bubbles.json in Resources */,
+				2742445A24DD6BB9001E5ECE /* GoogleService-Info.plist in Resources */,
+				27AA576B2524B4850025C979 /* loadingSpinner.json in Resources */,
+				274174CF24B95ABC00E3458F /* Assets.xcassets in Resources */,
+				27DAF33A24E9C74D00E922F2 /* YellowCorner1.json in Resources */,
+				274174CA24B95AB800E3458F /* Main.storyboard in Resources */,
+				274C7784250F590300884C91 /* 30792-mask-care-keep-your-mask-clean.json in Resources */,
+				275203BA250F50CF002E0069 /* 28319-card-money.json in Resources */,
+				27470F68251C0F0D00287076 /* confetti.json in Resources */,
+				27FEE21E2531CE63003003EF /* NoAccountMonkey.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274174D624B95ABC00E3458F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274174E124B95ABC00E3458F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		783011D41B65CC977D7841F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scavanger Hunt-Scavanger HuntUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8EE6DA1321BFB5D04468CC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scavanger Hunt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F13B45C4D55CEEB592462D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Scavanger HuntTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C347FC83C4CE6E23E10399BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scavanger Hunt/Pods-Scavanger Hunt-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scavanger Hunt/Pods-Scavanger Hunt-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scavanger Hunt/Pods-Scavanger Hunt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E436974589F942D8D5925D0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scavanger Hunt-Scavanger HuntUITests/Pods-Scavanger Hunt-Scavanger HuntUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scavanger Hunt-Scavanger HuntUITests/Pods-Scavanger Hunt-Scavanger HuntUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Scavanger Hunt-Scavanger HuntUITests/Pods-Scavanger Hunt-Scavanger HuntUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274174BB24B95AB700E3458F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27697EB324C3A691005683BF /* MainTransitionViews.swift in Sources */,
+				27D8E2D3251D593D0084A1E9 /* GroupCollectionViewControllers.swift in Sources */,
+				274174C724B95AB800E3458F /* ViewController.swift in Sources */,
+				276DDE3924C8086F00075C4D /* HuntTableVIews.swift in Sources */,
+				274174F724B95C8E00E3458F /* WelcomeViews.swift in Sources */,
+				274174C324B95AB800E3458F /* AppDelegate.swift in Sources */,
+				274174C524B95AB800E3458F /* SceneDelegate.swift in Sources */,
+				274174CD24B95AB800E3458F /* Scavanger_Hunt.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274174D424B95ABC00E3458F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274174DD24B95ABC00E3458F /* Scavanger_HuntTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274174DF24B95ABC00E3458F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274174E824B95ABC00E3458F /* Scavanger_HuntUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274174DA24B95ABC00E3458F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274174BE24B95AB700E3458F /* Scavanger Hunt */;
+			targetProxy = 274174D924B95ABC00E3458F /* PBXContainerItemProxy */;
+		};
+		274174E524B95ABC00E3458F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274174BE24B95AB700E3458F /* Scavanger Hunt */;
+			targetProxy = 274174E424B95ABC00E3458F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		274174C824B95AB800E3458F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274174C924B95AB800E3458F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		274174D024B95ABC00E3458F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274174D124B95ABC00E3458F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274174EA24B95ABC00E3458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		274174EB24B95ABC00E3458F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274174ED24B95ABC00E3458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038DDFF141E2F86A80F0B6DE /* Pods-Scavanger Hunt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Scavanger Hunt/Scavanger Hunt.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = NUWYLWYT8R;
+				INFOPLIST_FILE = "$(SRCROOT)/Scavanger Hunt/Support files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Scavanger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		274174EE24B95ABC00E3458F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B166646BDC3ADE3F4B8A61 /* Pods-Scavanger Hunt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Scavanger Hunt/Scavanger Hunt.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = NUWYLWYT8R;
+				INFOPLIST_FILE = "$(SRCROOT)/Scavanger Hunt/Support files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Scavanger-Hunt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		274174F024B95ABC00E3458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EEEC498BECAD6BBAA6E6013 /* Pods-Scavanger HuntTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUWYLWYT8R;
+				INFOPLIST_FILE = "Scavanger HuntTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Scavanger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scavanger Hunt.app/Scavanger Hunt";
+			};
+			name = Debug;
+		};
+		274174F124B95ABC00E3458F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A118049F0E8A8ECFE7421F /* Pods-Scavanger HuntTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUWYLWYT8R;
+				INFOPLIST_FILE = "Scavanger HuntTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Scavanger-HuntTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scavanger Hunt.app/Scavanger Hunt";
+			};
+			name = Release;
+		};
+		274174F324B95ABC00E3458F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8B5705C051F62B49ADE07C /* Pods-Scavanger Hunt-Scavanger HuntUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUWYLWYT8R;
+				INFOPLIST_FILE = "Scavanger HuntUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Scavanger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scavanger Hunt";
+			};
+			name = Debug;
+		};
+		274174F424B95ABC00E3458F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FCD3129A6391F0F1F1645D /* Pods-Scavanger Hunt-Scavanger HuntUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NUWYLWYT8R;
+				INFOPLIST_FILE = "Scavanger HuntUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CM.Scavanger-HuntUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Scavanger Hunt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274174BA24B95AB700E3458F /* Build configuration list for PBXProject "Scavanger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274174EA24B95ABC00E3458F /* Debug */,
+				274174EB24B95ABC00E3458F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274174EC24B95ABC00E3458F /* Build configuration list for PBXNativeTarget "Scavanger Hunt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274174ED24B95ABC00E3458F /* Debug */,
+				274174EE24B95ABC00E3458F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274174EF24B95ABC00E3458F /* Build configuration list for PBXNativeTarget "Scavanger HuntTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274174F024B95ABC00E3458F /* Debug */,
+				274174F124B95ABC00E3458F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274174F224B95ABC00E3458F /* Build configuration list for PBXNativeTarget "Scavanger HuntUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274174F324B95ABC00E3458F /* Debug */,
+				274174F424B95ABC00E3458F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		274174CB24B95AB800E3458F /* Scavanger_Hunt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				274174CC24B95AB800E3458F /* Scavanger_Hunt.xcdatamodel */,
+			);
+			currentVersion = 274174CC24B95AB800E3458F /* Scavanger_Hunt.xcdatamodel */;
+			path = Scavanger_Hunt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 274174B724B95AB700E3458F /* Project object */;
+}
